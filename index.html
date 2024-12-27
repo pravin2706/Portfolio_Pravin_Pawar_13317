@@ -102,6 +102,15 @@
             <img src="./assets/mysql.svg" alt="mysql">
             <p class="skill-text">MySQL</p>
         </div>
+
+        <div class="skill-item">
+            <img src="./assets/cpp.svg" alt="c++">
+            <p class="skill-text">C++</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/spring-boot.svg" alt="spring-boot">
+            <p class="skill-text">SpringBoot</p>
+        </div>
     </div>
     
  </section>
@@ -168,7 +177,7 @@
 
         <!-- Contact Form -->
         <div class="contact-form-container">
-            <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST" id="contactForm">
+            <form class="contact-form" id="contactForm">
                 <div class="form-group">
                     <input type="text" id="name" name="name" placeholder="Your Name" required>
                     <small class="error-message" id="nameError"></small>
@@ -181,7 +190,7 @@
                     <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
                     <small class="error-message" id="messageError"></small>
                 </div>
-                <button type="submit" class="submit-btn">Send Message</button>
+                <button type="submit" class="submit-btn" onclick="showThankYouMessage(event)">Send Message</button>
             </form>
         </div>
 </section>
@@ -192,7 +201,7 @@
         <p class="footer-text">© 2024 Pravin Pawar. All Rights Reserved.</p>
         <p class="footer-text">Follow me on:
             <a href="https://www.linkedin.com/in/pravin-pawar-5b0a09193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="footer-link">LinkedIn</a> | 
-            <a href="#" class="footer-link">GitHub</a> | 
+            <a href="https://github.com/pravin2706" class="footer-link">GitHub</a> | 
             <a href="#" class="footer-link">Twitter</a>
         </p>
     </div>
