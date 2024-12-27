@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravin Portfolio</title>
+    <link rel="shortcut icon" href="./assets/mylogo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- Particles.js Library --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+ <!-- Stats.js Library --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div> 
+    <!-- Stats - count particles  -->
+     <div class="count-particles"> <span class="js-count-particles">--</span> particles </div>
+    
+    <div class="container">
+         <!-- Navbar -->
+<div id="section1">
+     <header>
+        <span id="logo"><img src="./assets/mylogbgn.png" alt=""></span>
+      <span class="gradient-text">TechByPravin</span>
+
+        <nav>
+           <ul class="navlinks">
+               <li><a href="">Home</a></li>
+               <!-- <li><a href="">About</a></li> -->
+               <li><a href="#tech-stack">Tech Stack</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact Me</a></li>
+               <li><button type="button" id="downloadbtn" <button type="button" id="downloadbtn" onclick="window.open('https://drive.google.com/file/d/1n1owzB879hVZ45Z0urBmQkyWDQBjs_Xz/view?usp=sharing')">Download CV</button></li>
+           </ul>
+        </nav>
+        </header>
+   
+<!-- hero -->
+
+<section id="hero">
+    <div class="hero-wrapper">
+        <div class="hero-content">
+            <p>Hi 👋</p>
+            <p>My name is <span id="myname">Pravin</span></p>
+        
+            <p>I'm in <span class="typing-text"></span></p>
+            <div id="cvbtn">
+            <button type="button" id="downloadbtn" <button type="button" id="downloadbtn" onclick="window.open('https://drive.google.com/file/d/1n1owzB879hVZ45Z0urBmQkyWDQBjs_Xz/view?usp=sharing')">Download CV</button>
+            </div>
+            
+        </div>
+        <div class="profile-img-wrapper">
+            <img src="./assets/profile_photo (1).jpg" alt="profile-photo" class="profile-img">
+        </div>
+    </div>
+</section>
+
+
+</div>
+<!-- utils -->
+ 
+
+<!-- Tech Stack -->
+ <section id="tech-stack">
+    <p class="section-heading">My Tech Stack</p>
+    <p class="sub-section-heading">Technology I have been working recently.</p>
+
+    <div class="skills-wraper">
+        <div class="skill-item">
+            <img src="./assets/html5.svg" alt="html5">
+            <p class="skill-text">HTML5</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/css3.svg" alt="css3">
+            <p class="skill-text">CSS3</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/javascript.svg" alt="javascript">
+            <p class="skill-text">JavaScript</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/java.svg" alt="java">
+            <p class="skill-text">Java</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/csharp.svg" alt="csharp">
+            <p class="skill-text">C#</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/dotnet.svg" alt="dotnet">
+            <p class="skill-text">.NET</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/react.svg" alt="react">
+            <p class="skill-text">React</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/mysql.svg" alt="mysql">
+            <p class="skill-text">MySQL</p>
+        </div>
+    </div>
+    
+ </section>
+
+<!-- Project section -->
+<section id="projects">
+    <p class="section-heading">Projects</p>
+    <p class="sub-section-heading">Things I have Built so far</p>
+
+    <div class="projects-wrapper">
+        <div class="project-card">
+            <img src="./assets/ecom.jpg" alt="project image" class="project-img">
+            <div class="project-details">
+                <p class="project-title">E-Mart</p>
+                <p class="project-info">The website is a comprehensive e-Commerce B2C system enabling registered members to browse and purchase items across various categories. Built with technologies like Spring Boot, DotNet Core, and React JS, it supports discounts and loyalty points. The system is database-driven for flexibility and ease of maintenance, and successful transactions result in invoices emailed in PDF format.</p>
+                <div class="project-links">
+                   
+                    <a href="https://github.com/pravin2706/E-Mart">
+                        <img src="./assets/github.svg" alt="">
+                        View Code
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+
+        
+     
+    </div>
+</section>
+
+<!-- Contact Me Section -->
+
+
+<section id="contact">
+    <p class="section-heading">Contact Me</p>
+    
+    <p class="sub-section-heading">I'd love to hear from you! Let's connect.</p>
+
+    <div class="contact-container">
+        <!-- Contact Info Box (left side) -->
+        <div class="contact-info-box">
+            <h2>Contact Info</h2>
+<ul class="contact-list">
+    <li class="contact-detail">
+        <img src="./assets/email.svg" alt="Email Icon" class="contact-icon">
+        <a href="mailto:pravin@example.com">pravinypawar@gmail.com</a>
+    </li>
+    <li class="contact-detail">
+        <img src="./assets/phone.svg" alt="Phone Icon" class="contact-icon">
+        <a href="tel:+1234567890">+91 7666285690</a>
+    </li>
+    <li class="contact-detail">
+        <img src="./assets/address.svg" alt="Address Icon" class="contact-icon">
+        <a href="#">Juhu, Mumbai, India</a>
+    </li>
+    <li class="contact-detail">
+        <img src="./assets/linkedin.svg" alt="LinkedIn Icon" class="contact-icon">
+        <a href="https://www.linkedin.com/in/pravin-pawar-5b0a09193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin.com/pravin_pawar</a>
+    </li>
+</ul>
+
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+            <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <small class="error-message" id="nameError"></small>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <small class="error-message" id="emailError"></small>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <small class="error-message" id="messageError"></small>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <p class="footer-text">© 2024 Pravin Pawar. All Rights Reserved.</p>
+        <p class="footer-text">Follow me on:
+            <a href="https://www.linkedin.com/in/pravin-pawar-5b0a09193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="footer-link">LinkedIn</a> | 
+            <a href="#" class="footer-link">GitHub</a> | 
+            <a href="#" class="footer-link">Twitter</a>
+        </p>
+    </div>
+</footer>
+
+
+    </div>
+    
+    
+</body>
+</html>
