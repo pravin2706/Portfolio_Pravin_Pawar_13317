@@ -72,6 +72,8 @@ document.getElementById('contactForm').addEventListener('submit', function (even
   // If all fields are valid, submit the form
   if (isValid) {
       this.submit();
+      alert('Thank you for reaching out! Your message has been sent.');
+            document.getElementById('contactForm').reset();
   }
 });
 
@@ -204,3 +206,4 @@ update = function() {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+
