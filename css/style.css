@@ -6,7 +6,7 @@
   }
   
   body:has(header.scrolled) .navbar {
-    background-color: --nav-foot-color;
+    background-color: var(--nav-foot-color);
   }
 
   :root {
@@ -40,7 +40,7 @@
   }
 
   header.scrolled {
-    background-color:  --nav-foot-color; /* Change to your desired color */
+    background-color:  var(--nav-foot-color); /* Change to your desired color */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
 }
   
@@ -388,7 +388,7 @@ box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
 
 .contact-info-box h2 {
   text-align: center;
-  color: --nav-foot-color;
+  color: var(--nav-foot-color);
   font-size: 24px;
   margin-bottom: 3rem;  
 }
@@ -516,7 +516,7 @@ box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
 
 /* Footer Section */
 footer {
-  background-color: --nav-foot-color;
+  background-color: var(--nav-foot-color);
   padding: 2rem 0;
   text-align: center;
   color: var(--light-content);
