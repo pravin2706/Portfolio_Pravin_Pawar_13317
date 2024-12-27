@@ -6,7 +6,7 @@
   }
   
   body:has(header.scrolled) .navbar {
-    background-color: black;
+    background-color: --nav-foot-color;
   }
 
   :root {
@@ -15,6 +15,7 @@
     --gradient-heading: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
     --hero-heading: #d9d9d9;
     --text-color:white;
+    --nav-foot-color:black;
 
   }
   
@@ -39,7 +40,7 @@
   }
 
   header.scrolled {
-    background-color:  black; /* Change to your desired color */
+    background-color:  --nav-foot-color; /* Change to your desired color */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
 }
   
@@ -387,7 +388,7 @@ box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
 
 .contact-info-box h2 {
   text-align: center;
-  color: black;
+  color: --nav-foot-color;
   font-size: 24px;
   margin-bottom: 3rem;  
 }
@@ -515,7 +516,7 @@ box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
 
 /* Footer Section */
 footer {
-  background-color: black;
+  background-color: --nav-foot-color;
   padding: 2rem 0;
   text-align: center;
   color: var(--light-content);
