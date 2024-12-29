@@ -23,7 +23,7 @@
     },
     {
         "name": "C++",
-        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+        "icon": "assets/images/skills/cpp.svg"
     },
     
     {
@@ -33,15 +33,15 @@
   
     {
         "name": "SpringBoot",
-        "icon": "/assets/images/skills/springboot.svg"
+        "icon": "assets/images/skills/springboot.svg"
     },
     {
         "name": ".NET",
-        "icon": "/assets/images/skills/dotnet.svg"
+        "icon": "assets/images/skills/dotnet.svg"
     },
     {
         "name": "ReactJs",
-        "icon": "/assets/images/skills/reactjs.svg"
+        "icon": "assets/images/skills/reactjs.svg"
     },
     
     {
