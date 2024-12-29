@@ -1,0 +1,56 @@
+[
+    
+    {
+        "name": "HTML5",
+        "icon": "./assets/images/skills/html5.svg"
+    },
+    {
+        "name": "CSS3",
+        "icon": "./assets/images/skills/css3.svg"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "./assets/images/skills/javascript.svg"
+    },
+    {
+        "name": "Java",
+        "icon": "./assets/images/skills/java.svg"
+    },
+    
+    {
+        "name": "C#",
+        "icon": "./assets/images/skills/csharp.svg"
+    },
+    {
+        "name": "C++",
+        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+    },
+    
+    {
+        "name": "MySQL",
+        "icon": "./assets/images/skills/mysql.svg"
+    },
+   
+  
+    {
+        "name": "SpringBoot",
+        "icon": "/assets/images/skills/springboot.svg"
+    },
+    {
+        "name": ".NET",
+        "icon": "/assets/images/skills/dotnet.svg"
+    },
+    {
+        "name": "ReactJs",
+        "icon": "/assets/images/skills/reactjs.svg"
+    },
+    
+    {
+        "name": "Git",
+        "icon": "./assets/images/skills/git.svg"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    }
+]
